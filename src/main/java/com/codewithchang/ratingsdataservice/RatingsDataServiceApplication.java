@@ -2,8 +2,10 @@ package com.codewithchang.ratingsdataservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
+@EnableEurekaClient
 public class RatingsDataServiceApplication {
 
 	//Ratings data service stores the grading information
